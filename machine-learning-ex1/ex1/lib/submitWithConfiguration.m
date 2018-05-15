@@ -1,5 +1,5 @@
 function submitWithConfiguration(conf)
-  addpath('./lib/jsonlab');
+  addpath('C:/Users/fnarbona/.atom/projects/ML-Octave/machine-learning-ex1/ex1/lib/jsonlab');
 
   parts = parts(conf);
 

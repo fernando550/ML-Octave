@@ -1,5 +1,5 @@
 function submit()
-  addpath('./lib');
+  addpath('C:/Users/fnarbona/.atom/projects/ML-Octave/machine-learning-ex1/ex1/lib');
 
   conf.assignmentSlug = 'linear-regression';
   conf.itemName = 'Linear Regression with Multiple Variables';

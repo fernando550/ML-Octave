@@ -73,6 +73,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 fprintf('\nRunning Gradient Descent ...\n')
+fprintf('current theta %f\n',theta);
 % run gradient descent
 theta = gradientDescent(X, y, theta, alpha, iterations);
 
