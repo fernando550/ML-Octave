@@ -12,7 +12,7 @@ m = size(X, 1);
 num_labels = size(all_theta, 1);
 
 % You need to return the following variables correctly 
-p = zeros(size(X, 1), 1);
+p = zeros(m, 1);
 
 % Add ones to the X data matrix
 X = [ones(m, 1) X];
@@ -30,12 +30,12 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
-
-
-
-
-
-
+hx = sigmoid(X * all_theta');
+[maxhx, maxhx_2] = max(hx');
+maxhx(:,1:5)
+maxhx_2(:,1:5)
+p = maxhx_2';
+   
 % =========================================================================
 
 
